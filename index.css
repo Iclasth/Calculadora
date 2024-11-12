@@ -3,10 +3,11 @@
         height: 100vh;
         color: whitesmoke;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
 }
 .Calculadora {
         position: absolute;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.8);
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
@@ -19,5 +20,22 @@
         font-size: 25px;
         background-color: rgb(31,31, 31);
         border: none;
-        
+        color: white;
+        margin: 3px;
+
+}
+.buttom:hover{
+        background-color: black;
+        transition: 0,5s;
+}
+
+#resultado {
+        width: 207px;
+        background: white;
+        height: 30px;
+        margin: 5px;
+        font-size: 25px;
+        color: black;
+        text-align: right;
+        padding: 5px;
 }
