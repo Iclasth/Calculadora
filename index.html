@@ -43,42 +43,42 @@
         <table>
           <tbody>
             <tr>
-              <td><button class="buttom">C</button></td>
-              <td><button class="buttom">&lt;</button></td>
-              <td><button class="buttom">/</button></td>
-              <td><button class="buttom">X</button></td>
+              <td><button class="buttom" onclick="insert('C')">C</button></td>
+              <td><button class="buttom" onclick="insert('<')">&lt;</button></td>
+              <td><button class="buttom" onclick="insert('/')">/</button></td>
+              <td><button class="buttom" onclick="insert('X')">X</button></td>
 
 
             </tr>
 
             <tr>
-              <td><button class="buttom">7</button></td>
-              <td><button class="buttom">8</button></td>
-              <td><button class="buttom">9</button></td>
-              <td><button class="buttom">-</button></td>
-
-
-            </tr>
-
-
-            <tr>
-
-
-              <td><button class="buttom">4</button></td>
-              <td><button class="buttom">5</button></td>
-              <td><button class="buttom">6</button></td>
-              <td><button class="buttom">+</button></td>
-
+              <td><button class="buttom" onclick="insert('7')">7</button></td>
+              <td><button class="buttom" onclick="insert('8')">8</button></td>
+              <td><button class="buttom" onclick="insert('9')">9</button></td>
+              <td><button class="buttom" onclick="insert('-')">-</button></td>
 
 
             </tr>
 
 
             <tr>
-              <td><button class="buttom">1</button></td>
-              <td><button class="buttom">2</button></td>
-              <td><button class="buttom">3</button></td>
-              <td rowspan="2" class="buttom"><button class="buttom" style="height: 106px;">=</button></td>
+
+
+              <td><button class="buttom" onclick="insert('4')">4</button></td>
+              <td><button class="buttom" onclick="insert('5')">5</button></td>
+              <td><button class="buttom" onclick="insert('6')">6</button></td>
+              <td><button class="buttom" onclick="insert('+')">+</button></td>
+
+
+
+            </tr>
+
+
+            <tr>
+              <td><button class="buttom" onclick="insert('1')">1</button></td>
+              <td><button class="buttom" onclick="insert('2')">2</button></td>
+              <td><button class="buttom" onclick="insert('3')">3</button></td>
+              <td rowspan="2"><button class="buttom" style="height: 106px;" onclick="insert('=')">=</button></td>
 
 
 
@@ -89,8 +89,8 @@
 
 
 
-              <td colspan="2"><button class="buttom" style="width: 106px;">0</button></td>
-              <td><button class="buttom">.</button></td>
+              <td colspan="2"><button class="buttom" style="width: 106px;" onclick="insert('0')">0</button></td>
+              <td><button class="buttom" onclick="insert('.')">.</button></td>
 
             </tr>
 
@@ -104,6 +104,9 @@
 
 
 
+    <script src="./script.js">
+
+    </script>
 
 
 
