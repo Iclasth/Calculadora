@@ -1,7 +1,0 @@
-/* O "seletor universal" não está funcionando pela folha de estilo no meu CSS. Então, criei uma tag style na folha html para fazer essa alteração.
-
-exemplo: 
-*{
-    padding: 0;
-    
-}
